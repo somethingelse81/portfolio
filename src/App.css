@@ -15,13 +15,56 @@ nav {
 .navcontainer {
   list-style-type: none;
   display: flex;
+  margin-top: 0px;
 }
 .logo{
   font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 50px;
   padding: 0px 30px;
 }
-.navitem {
-  padding: 0px 50px;
-  font-size: 40px;
+#socialNav {
+  margin-right: 30px;
 }
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  font-size: 40px;
+  padding: 40px;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.2);
+}
+
+#github:hover ,
+#github:focus ,
+#github:active {
+  color: grey;
+}
+#linkedin:hover ,
+#linkedin:focus ,
+#linkedin:active {
+  color: #0077B5;
+}
+#twitter:hover ,
+#twitter:focus ,
+#twitter:active {
+  color: #55acee;
+}
+
+#medium:hover ,
+#medium:focus ,
+#medium:active {
+  color: #02b875;
+}
+
+

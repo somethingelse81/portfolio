@@ -9,11 +9,11 @@ export default function Navbar() {
           <ul className="navcontainer">
             <li className="logo">{"<sB/>"}</li>
           </ul>
-          <ul className="navcontainer">
-            <li className="navitem"><FontAwesomeIcon icon={ faGithub }/></li>
-            <li className="navitem"><FontAwesomeIcon icon={ faLinkedin }/></li>
-            <li className="navitem"><FontAwesomeIcon icon={ faTwitter }/></li>
-            <li className="navitem"><FontAwesomeIcon icon={ faMedium }/></li>
+          <ul className="navcontainer" id="s">
+            <li className="navitem" class="hvr-grow" id="github"><FontAwesomeIcon icon={ faGithub }/></li>
+            <li className="navitem" class="hvr-grow" id="linkedin"><FontAwesomeIcon icon={ faLinkedin }/></li>
+            <li className="navitem" class="hvr-grow" id="twitter"><FontAwesomeIcon icon={ faTwitter }/></li>
+            <li className="navitem" class="hvr-grow" id="medium"><FontAwesomeIcon icon={ faMedium }/></li>
           </ul>
         </nav>
   );
